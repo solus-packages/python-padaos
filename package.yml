@@ -1,0 +1,20 @@
+name       : python-padaos
+version    : 0.1.10
+release    : 1
+source     :
+    - https://files.pythonhosted.org/packages/7a/32/5a9d9110a1ad4731bcba99c9b1291e29d740b45717bd5b5ba7e72627008f/padaos-0.1.10.tar.gz : 2ac05fcbc826873c574568aa5ce09945d6ea987bee10399e766eb8f7c6356d72
+license    : MIT
+component  : programming.python
+summary    : A rigid, lightweight, dead-simple intent parser
+description: |
+    A rigid, lightweight, dead-simple intent parser
+
+    To deploy an intent parser into production with an automated feedback loop, it's essential that the new data doesn't interfere with the old data. It's also necessary that the parser can learn from sentences that closely match written English (or any other language). That's what Padaos does.
+rundeps    :
+    - python3 
+build      : |
+    %python3_setup
+install    : |
+    %python3_install
+check      : |
+    %python3_test
