@@ -1,6 +1,6 @@
 name       : python-padaos
 version    : 0.1.10
-release    : 2
+release    : 3
 source     :
     - https://files.pythonhosted.org/packages/7a/32/5a9d9110a1ad4731bcba99c9b1291e29d740b45717bd5b5ba7e72627008f/padaos-0.1.10.tar.gz : 2ac05fcbc826873c574568aa5ce09945d6ea987bee10399e766eb8f7c6356d72
 license    : MIT
